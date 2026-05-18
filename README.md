@@ -41,7 +41,7 @@ Input Image → YOLO Detection → Crop Bounding Boxes → ResNet18 Classificati
 
 ## ✨ Features
 
-- 🎯 **Apple Detection** — Fine-tuned YOLOv8 locates every apple in the image with bounding boxes
+- 🎯 **Apple Detection** — Fine-tuned YOLO26 locates every apple in the image with bounding boxes
 - 🦠 **Disease Classification** — ResNet18 classifies each crop: `HEALTHY`, `BLOTCH`, `ROT`, `SCAB`
 - 📦 **Batch Processing** — Analyze up to 20 images in a single request
 - 🎨 **Color Analysis** — HSV-based redness scoring and hue uniformity measurement
@@ -66,7 +66,7 @@ Input Image → YOLO Detection → Crop Bounding Boxes → ResNet18 Classificati
 ### AI & Machine Learning
 | Tool | Role |
 |------|------|
-| YOLOv8 (Ultralytics) | Apple detection — fine-tuned on Roboflow dataset |
+| YOLO26 (Ultralytics) | Apple detection — fine-tuned on Roboflow dataset |
 | ResNet18 (PyTorch) | Disease classification — transfer learning on apple crops |
 | OpenCV | Image preprocessing, annotation, feature extraction |
 | torchvision | Transforms, model architecture |
